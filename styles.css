@@ -1,1 +1,38 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(95, 189, 189);
+}
+
+h1 {
+    color: #2a4864;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(59, 87, 87);
+    background-color: rgb(166, 199, 214);
+}
+
+.word-cloud {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.word-cloud span {
+    margin: 5px;
+    display: inline-block;
+}
 
